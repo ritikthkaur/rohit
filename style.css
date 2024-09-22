@@ -1,0 +1,239 @@
+/* Basic body styling */
+body {
+    font-family: Arial, sans-serif; /* Set the font for the page */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #f4f4f4; /* Light background color */
+}
+
+/* Header styling */
+header {
+    background: #007BFF; /* Blue background for header */
+    color: white; /* White text color */
+    padding: 10px 0; /* Padding for header */
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center; /* Center items vertically */
+    padding: 0 20px; /* Padding on sides */
+}
+
+/* Navigation links styling */
+.nav-links {
+    list-style: none; /* Remove default list styling */
+    display: flex; /* Use flexbox for horizontal layout */
+}
+
+.nav-links li {
+    margin: 0 15px; /* Margin between links */
+}
+
+.nav-links a {
+    color: white; /* White text color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Button styling */
+.button {
+    background: #FFD700; /* Gold background for buttons */
+    padding: 10px 15px; /* Padding for buttons */
+    border-radius: 5px; /* Rounded corners */
+    color: black; /* Black text color */
+}
+
+/* Main content styling */
+main {
+    padding: 20px; /* Padding for main content */
+}
+
+/* Headings styling */
+h2 {
+    color: #333; /* Dark gray color for headings */
+}
+
+/* Modal styling */
+.modal {
+    display: none; /* Hide modal by default */
+    position: fixed; /* Position fixed to viewport */
+    top: 0; /* Align to top */
+    left: 0; /* Align to left */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+/* Modal form styling */
+.modal form {
+    background: white; /* White background for form */
+    padding: 20px; /* Padding for form */
+    border-radius: 10px; /* Rounded corners */
+    text-align: center; /* Center text */
+}
+
+/* Input field styling */
+.modal input {
+    display: block; /* Block display for inputs */
+    margin: 10px auto; /* Center inputs with margin */
+    padding: 10px; /* Padding for inputs */
+    width: 80%; /* 80% width */
+}
+
+/* Footer styling */
+/* Footer styling */
+
+footer {
+    background-color: #003366; /* Dark blue background for the footer */
+    color: white; /* White text color */
+    padding: 20px; /* Padding for the footer */
+    text-align: center; /* Center align text */
+}
+
+.footer-content {
+    max-width: 1200px; /* Max width for content */
+    margin: 0 auto; /* Center the footer content */
+}
+
+.social-media {
+    margin-top: 10px; /* Space above social media links */
+}
+
+.social-icon {
+    margin: 0 10px; /* Space between icons */
+    color: white; /* White color for icons */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 24px; /* Size of the icons */
+}
+
+.social-icon:hover {
+    color: #f9d30f; /* Change color on hover */
+}
+
+
+   
+
+#contact {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for the section */
+}
+
+h2 {
+    color: #003366; /* Dark blue for main headings */
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Vertical layout for form elements */
+}
+
+label {
+    margin-top: 10px; /* Space above labels */
+}
+
+input, textarea {
+    padding: 10px; /* Padding for input fields */
+    margin-top: 5px; /* Space above inputs */
+    border: 1px solid #ccc; /* Light border */
+}
+
+button {
+    margin-top: 10px; /* Space above button */
+    padding: 10px; /* Padding for button */
+    background-color: #003366; /* Dark blue button */
+    color: white; /* White text on button */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #00509e; /* Lighter blue on hover */
+}
+.message-button{
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+#about {
+    padding: 20px;
+    background-color: #f4f4f4; /* Light background for the section */
+}
+
+h2 {
+    color: #003366; /* Dark blue for main headings */
+}
+
+h3 {
+    margin-top: 20px; /* Space above section headings */
+}
+
+ul {
+    list-style-type: disc; /* Default bullet points */
+    padding-left: 20px; /* Indentation for list items */
+}
+
+p {
+    line-height: 1.6; /* Improve readability with line spacing */
+}
+#home {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for the section */
+}
+
+h2 {
+    color: #003366; /* Dark blue for main headings */
+}
+
+h3 {
+    margin-top: 20px; /* Space above section headings */
+}
+
+blockquote {
+    font-style: italic; /* Italic style for testimonials */
+    margin: 10px 0;
+    border-left: 2px solid #007BFF; /* */
+    padding-left: 10px; /* Padding for the quote */
+}
+#home {
+    padding: 20px;
+    background-color:white; /*HOME MAI JO DETAILS HA BO kis colour mai ha  */
+}
+
+h2 {
+    color: #3f6600; /* home jo lika ha bo kis colour mai hona chaiye  */
+}
+
+h3 {
+    margin-top: 20px; /* Space above section headings */
+}
+
+blockquote {
+    font-style: italic; /* Italic style for testimonials */
+    margin: 10px 0;
+    border-left: 2px solid #007BFF; /* Accent border */
+    padding-left: 10px; /* Padding for the quote */
+}
+#courses {
+    padding: 20px;
+    background-color: #f4f4f4; /* Light background for the section */
+}
+
+h2 {
+    color: #003366; /* Dark blue for main headings */
+}
+
+h3, h4 {
+    margin-top: 20px; /* Space above section headings */
+}
+
+p {
+    line-height: 1.6; /* Improve readability with line spacing */
+}
